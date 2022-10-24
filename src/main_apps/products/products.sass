@@ -1,0 +1,39 @@
+.products_page
+    background: linear-gradient(-90deg, #d9a7c7, #fffcdc)
+    min-height: 100vh
+    width: 100%
+    .container
+        max-width: 1050px
+        margin: 0 auto
+        height: 100%
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        padding-top: 120px
+        .item
+            margin-top: 30px
+            height: 300px
+            width: calc(25%  -  15px)
+            flex: 0 0 calc(25% -  15px)
+            border-radius: 10px
+            background-image: linear-gradient(#fff 50%,#0cebeb,#20e3b2,#29ffc6)
+            background-size: 250% 200%
+            background-position: top
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: space-evenly
+            box-shadow: 0 0 15px 0 rgba(0,0,0,.15)
+            cursor: pointer
+            transition: all .3s ease-in-out
+            position: relative
+            .item_photo
+                width: 80%
+            .item_name
+                font-family: 'Montserrat', sans-serif
+                font-weight: 400
+                font-size: 19px
+            &:hover
+                box-shadow: 0 5px 15px 0 rgba(0,0,0,.4)
+                background-position: bottom
+                color: #fff
