@@ -8,9 +8,15 @@ function Products() {
 
     const products = useSelector(state => state.cartProducts.products)
 
-    const addItemHandler = () => {
+    // const addItemHandler = () => {
+    //     dispatch({
+    //         type: "ADD_AT_CART"
+    //     })
+    // }
+
+    const clickOnItemHandler = () => {
         dispatch({
-            type: "ADD_AT_CART"
+            type: "GET_SWITCH_PAGE"
         })
     }
 
@@ -19,8 +25,8 @@ function Products() {
             <div className="container">
                 {
                     products.map((product, i) =>
-                        <div className="item" key={i}>
-                            <img className="item_photo" onClick={() => addItemHandler()} src={product.products_image} alt='Headphone' />
+                        <div className="item" key={i} onClick={() => clickOnItemHandler()}>
+                            <img className="item_photo" src={product.products_image} alt='Headphone' />
                             <h1 className="item_name">{product.products_name}</h1>
                         </div>
                     )

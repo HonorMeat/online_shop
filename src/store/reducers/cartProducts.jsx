@@ -2,36 +2,25 @@ const defaultState = {
     products: [
         {
             products_image: '../../assets/head.png',
-            products_name: 'Headphones'
+            products_name: 'Headphones',
+            hx: ' sdfsdf'
         },
         {
             products_image: '../../assets/head.png',
-            products_name: 'Headphones'
+            products_name: 'Headphones',
+            hx: 'sdfsdfx xxx xfdsdfsdf '
         },
         {
             products_image: '../../assets/head.png',
-            products_name: 'Headphones'
+            products_name: 'Headphones',
+            hx: ';,;l,;l'
         },
         {
             products_image: '../../assets/head.png',
-            products_name: 'Headphones'
+            products_name: 'Headphones',
+            hx: 'vbcvbc '
         },
-        {
-            products_image: '../../assets/head.png',
-            products_name: 'Headphones'
-        },
-        {
-            products_image: '../../assets/head.png',
-            products_name: 'Headphones'
-        },
-        {
-            products_image: '../../assets/head.png',
-            products_name: 'Headphones'
-        },
-        {
-            products_image: '../../assets/head.png',
-            products_name: 'Headphones'
-        },
+        
     ]
 }
 

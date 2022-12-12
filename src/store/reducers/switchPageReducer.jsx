@@ -8,6 +8,8 @@ function switchPageReducer(state=defaultState, action) {
             return{...state, shownPage: 'mainPage'}
         case "GET_CART_PAGE":
             return{...state, shownPage: 'cartPage'}
+        case "GET_SWITCH_PAGE":
+            return{...state, shownPage: 'specificPage'}
         default:
             return{...state, shownPage: 'mainPage'}
     }
